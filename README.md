@@ -1,27 +1,50 @@
-Tutorial: Usando React Native e Expo
+# Welcome to your Expo app 👋
 
-Uma introdução a um tutorial React Native sobre como criar um aplicativo universal que é executado no Android, iOS e na web usando a Expo.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-Estamos prestes a embarcar em uma jornada de criação de aplicativos universais. Neste tutorial, criaremos um aplicativo da Expo que é executado no Android, iOS e web; tudo com uma única base de código. Vamos começar!
-Tutorial React Native e Expo
+## Get started
 
-O objetivo deste tutorial é começar com a Expo e se familiarizar com a Expo SDK. Ele abordará os seguintes tópicos:
+1. Install dependencies
 
-    Criar um aplicativo usando o modelo padrão com o TypeScript ativado
-    Implemente um layout de guias de duas telas com o Expo Router
-    Quebre o layout do aplicativo e implemente-o com o flexbox
-    Use a interface do sistema de cada plataforma para selecionar uma imagem na biblioteca de mídia
-    Crie um adesivo modal usando o <Modal> E a <FlatList> Componentes do React Native
-    Adicionar gestos de toque para interagir com um adesivo
-    Use bibliotecas de terceiros para capturar uma captura de tela e salvá-la no disco
-    Lidar com as diferenças de plataforma entre Android, iOS e Web
-    Finalmente, passe pelo processo de configuração de uma barra de status, uma tela de respingos e um ícone para completar o aplicativo
+   ```bash
+   npm install
+   ```
 
-Esses tópicos fornecem uma base para aprender os fundamentos da construção de um aplicativo Expo. O tutorial é individualizado e pode levar até duas horas para ser concluído.
+2. Start the app
 
-Para mantê-lo amigável para iniciantes, dividimos o tutorial em nove capítulos para que você possa acompanhar ou colocá-lo e voltar a ele mais tarde. Cada capítulo contém os snippets de código necessários para completar as etapas, para que você possa seguir criando um aplicativo a partir do zero ou copiar e colá-lo.
+   ```bash
+   npx expo start
+   ```
 
-Antes de começarmos a ver o que vamos construir. É um aplicativo chamado StickerSmash que é executado no Android, iOS e na web:
+In the output, you'll find options to open the app in a
 
-https://docs.expo.dev/static/videos/tutorial/final.mp4
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
+npm run reset-project
+```
+
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
